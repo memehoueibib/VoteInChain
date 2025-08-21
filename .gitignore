@@ -7,6 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Environment variables (CRITICAL SECURITY)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
 node_modules
 dist
 dist-ssr
@@ -22,6 +30,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
 .env
-.env.example
-.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Railway
+.railway
+
+# Hardhat
+cache
+artifacts
+typechain-types
+
+# Supabase
+.supabase
+
+# Build artifacts
+build/
+out/
+
+# Temporary files
+*.tmp
+*.temp
