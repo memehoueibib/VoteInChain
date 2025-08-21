@@ -26,11 +26,8 @@
 }
 
 @layer utilities {
-  .bg-300% {
-    background-size: 300% 300%;
-  }
-
   .animate-gradient {
+    background-size: 300% 300%;
     animation: gradient 6s ease infinite;
   }
   

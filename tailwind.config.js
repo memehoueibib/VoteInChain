@@ -54,10 +54,6 @@ export default {
         'glow-lg': '0 0 40px rgba(6, 182, 212, 0.4)',
         'glow-violet': '0 0 20px rgba(139, 92, 246, 0.3)',
       },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
     },
   },
   plugins: [],
